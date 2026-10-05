@@ -25,5 +25,6 @@ function add_user(name, email, password) {
 }
 exports.utils = {
     hello,
-    add
+    add,
+    add_user
 };
