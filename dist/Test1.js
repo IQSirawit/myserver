@@ -23,5 +23,11 @@ const unit_test = () => __awaiter(void 0, void 0, void 0, function* () {
         console.log("Test Failed: utils.add(3, 3) === 6");
         process.exit(1);
     }
+    if (utils.add_user("test", "testnoassigning", "password") === false) {
+    }
+    else {
+        console.log("UnitTest Case 3: utils.add_user(\"test\", \"testnoassigning\", \"password\") == false");
+        process.exit(1);
+    }
 });
 unit_test();
